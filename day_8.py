@@ -33,7 +33,7 @@ for y in range(1,len(forest_lines)-1):
 visible_trees = visible_trees + 2 * (len(forest_lines)) + 2 * (len(forest_lines[0])) - 4
 print(visible_trees)
 """
-
+# Starfruit 2
 #--------------------- WARNING --------------------------------
 #YOU DONT HAVE TO LOOK AT THE TREES ON THE OUTER GRID BECAUSE THEIR SCORE IS 0 ANYWAYS ...
 # I realised it too late
