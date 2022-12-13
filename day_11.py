@@ -27,34 +27,7 @@ for i in range(len(input_lines)):
         monkey.append(if_list)
     if "" == input_lines[i]:
         monkeys.append(monkey)
-"""
-throws = []
-for m in monkeys:
-    throws.append(0)
-throw_index = 0
-for c in range(20):
-    for monkey in monkeys:
-        throws[throw_index] += len(monkey[0])
-        if throw_index < len(monkeys)-1:
-            throw_index += 1
-        else:
-            throw_index = 0
 
-        for i in range(len(monkey[0])):
-            item = monkey[0].pop(0)
-            func = lambda old: eval(monkey[1])
-            new_item = func(int(item))
-            #Starfruit 1
-            new_item = new_item / 3
-            new_item = int(new_item)
-
-            if new_item % int(monkey[2]) == 0:
-                monkeys[int(monkey[3][0])][0].append(int(new_item))
-            else:
-                monkeys[int(monkey[3][1])][0].append(int(new_item))
-
-print(throws)
-"""
 throws = []
 for m in monkeys:
     throws.append(0)
