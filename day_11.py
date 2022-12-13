@@ -1,5 +1,3 @@
-import math
-import sys
 input = open("day_11_input.txt","r")
 input_lines = input.read().split("\n")
 sys.set_int_max_str_digits(1000000000)
